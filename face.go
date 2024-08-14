@@ -1,6 +1,6 @@
 package face
 
-// #cgo CXXFLAGS: -std=c++1z -Wall -O3 -DNDEBUG -march=native
+// #cgo CXXFLAGS: -std=c++1z -Wall -O3 -DNDEBUG -march=arm64
 // #cgo LDFLAGS: -ldlib -lblas -lcblas -llapack -ljpeg
 // #include <stdlib.h>
 // #include <stdint.h>
