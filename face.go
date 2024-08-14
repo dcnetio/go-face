@@ -1,6 +1,6 @@
 package face
 
-// #cgo CXXFLAGS: -std=c++1z -Wall -O3 -DNDEBUG
+// #cgo CXXFLAGS: -std=c++1z -Wall -O3 -DNDEBUG -mcpu=native -mtune=native
 // #cgo LDFLAGS: -ldlib -lblas -lcblas -llapack -ljpeg
 // #include <stdlib.h>
 // #include <stdint.h>
