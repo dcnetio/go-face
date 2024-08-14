@@ -2,7 +2,7 @@ package face
 
 // #cgo CXXFLAGS: -std=c++1z -Wall -O3 -DNDEBUG
 // #cgo !(darwin && arm64) CXXFLAGS: -march=native
-// #cgo darwin && arm64 CXXFLAGS: -mtune=X
+// #cgo darwin && arm64 CXXFLAGS: -mtune=native
 // #cgo LDFLAGS: -ldlib -lblas -lcblas -llapack -ljpeg
 // #include <stdlib.h>
 // #include <stdint.h>
